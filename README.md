@@ -1,7 +1,7 @@
-# 一些论文笔记
+# WIKI
 ## 目录
 
-### Large Batch Optimization for Machine Learning
+### paper note: Large Batch Optimization for Machine Learning
 * [[VLBFGS] Large-scale L-BFGS using mapreduce(Microsoft NIPS2014)](https://github.com/jqliu42/paper-note/blob/master/Optimization/Large-scale%20L-BFGS%20using%20MapReduce.pdf)
   > 该文使用vector-free的策略，将L-BFGS中two loop recursion部分的所有向量点积运算转变为标量运算，以此节省运算时间的同时，使得将L-BFGS用map reduce分布式运算具有可实践性
 * [On Large-Batch Training For Deep Learning: Generalization Gap and Sharp Minima(ICLR2017)](https://github.com/jqliu42/paper-note/blob/master/Optimization/On%20Large-Batch%20Training%20For%20Deep%20Learning%20Generalization%20Gap%20and%20Sharp%20Minima.pdf)
@@ -20,5 +20,7 @@
   > 基本是SQN+variance reduction,并证明了线性收敛的性质
 * [Scaling SGD Batch Size to 32K for ImageNet Training](https://github.com/jqliu42/paper-note/blob/master/Optimization/Scaling%20SGD%20Batch%20Size%20to%2032K%20for%20ImageNet%20Training.pdf)
   > 提出了layer-wise adaptive rate scaling(LARS),成功的将batch size提高到了32k
+
+### Mark the Internet: some useful resource
 * [Numerical Optimization_ Understanding L-BFGS](https://github.com/jqliu42/paper-note/blob/master/Optimization/Numerical%20Optimization_%20Understanding%20L-BFGS.pdf)
   > 从牛顿法梳理到L-BFGS方法，科普向
