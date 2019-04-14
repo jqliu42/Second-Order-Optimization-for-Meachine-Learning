@@ -20,3 +20,5 @@
   > 基本是SQN+variance reduction,并证明了线性收敛的性质
 * [Scaling SGD Batch Size to 32K for ImageNet Training](https://github.com/jqliu42/paper-note/blob/master/Optimization/Scaling%20SGD%20Batch%20Size%20to%2032K%20for%20ImageNet%20Training.pdf)
   > 提出了layer-wise adaptive rate scaling(LARS),成功的将batch size提高到了32k
+* [Numerical Optimization_ Understanding L-BFGS](https://github.com/jqliu42/paper-note/blob/master/Optimization/Numerical%20Optimization_%20Understanding%20L-BFGS.pdf)
+  > 从牛顿法梳理到L-BFGS方法，科普向
