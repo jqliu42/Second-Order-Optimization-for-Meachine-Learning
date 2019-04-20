@@ -1,2 +1,1 @@
-- > Intuitively, the effect of Newton method is to rescale the step appropriately for different directions ——— directions
-    with high curvature require small steps,while directions with low curvature require large steps to make progress.
+- ### 直观上来说，牛顿法的效果可以理解为在不同的方向上调整合适的步长，使得具有高曲率的方向步长更小，具有低曲率的方向步长更大。想象二维情况的抛物线，当抛物线较为尖锐(也即曲率值较高)时，迈向谷底的步子就应该小一点，反之如果抛物线比较平缓(曲率值较小)，迈向谷底的步子就应该大一点。
