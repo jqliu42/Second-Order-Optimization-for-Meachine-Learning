@@ -24,6 +24,8 @@
   > 该文通过分析Hessian spectrum来分析large batch training的泛化能力差的原因，得出的结论是generalization gap不是因为saddle point的问题，而是因为large batch trainign容易收敛到sharp的区域。此外，该文还指出robust optimization对平坦的区域有偏好。该文的主要贡献是提出了一个分析的视角，但并没有给出解决方案。
 * [Large Batch Size Training of Neural Networks with Adversarial Training and Second-Order Information](https://github.com/jqliu42/paper-note/blob/master/Optimization/Large%20Batch%20Size%20Training%20of%20Neural%20Networks%20with%20Adversarial%20Training%20and%20Second-Order%20Information.pdf)
   > 该文同样是为了解决generalization gap，提出了ABS(通过二阶信息动态调整batch size,如果是平坦的区域则加大batch size,否则减小)，ABSA(主要是ABS+对抗训练)
+* [The Marginal Value of Adaptive Gradient Methods in Machine Learning(ICLR2017)](https://github.com/jqliu42/paper-note/blob/master/Optimization/the-marginal-value-of-adaptive-gradient-methods-in-machine-learning.pdf)
+  > 该文通过实验给出结论：比起SGD或者SGD with mometum , AdaGrad,Adam这些Adaptive优化方法虽然再训练早期误差下降，但最终的泛化能力比不上前者
 
 ### Mark the Internet: some useful resource
 * [Numerical Optimization_ Understanding L-BFGS](https://github.com/jqliu42/paper-note/blob/master/Optimization/Numerical%20Optimization_%20Understanding%20L-BFGS.pdf)
