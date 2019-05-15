@@ -1,6 +1,7 @@
 ### Open Course
 - [standford CS246](http://web.stanford.edu/class/cs246/)
   > data mining with spark
+- [Berkeley CS190.1x](https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/)
 - [CMU Machine Learning with large dataset](http://curtis.ml.cmu.edu/w/courses/index.php/Syllabus_for_Machine_Learning_with_Large_Datasets_10-605_in_Spring_2014)
 - [Washington University CSE 559W](https://dlsys.cs.washington.edu/)
   > systems for ML
